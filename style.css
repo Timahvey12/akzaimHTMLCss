@@ -1,0 +1,478 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.wrapperProject {
+  max-width: 1665px;
+  max-height: 100%;
+}
+.iconsblock {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 40px;
+  background: #0e77af;
+}
+.navleft {
+  height: 40px;
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navleft a {
+  margin-left: 21px;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.navright {
+  height: 40px;
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 10px;
+  text-align: right;
+}
+.navright a {
+  align-items: center;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(255, 254, 254);
+  font-size: 14px;
+  line-height: 10px;
+}
+.marginLeft {
+  margin-left: 248px;
+}
+.marginRigth {
+  margin-right: 248px;
+}
+.wrapernav {
+  max-width: 1665px;
+  width: 100%;
+  height: 119px;
+  display: flex;
+}
+.navmain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navmain a {
+  display: flex;
+  padding: 5px;
+}
+
+.navlogo {
+  display: flex;
+}
+.navmenu {
+  display: flex;
+  width: 629px;
+  height: 16px;
+  padding: 5px;
+}
+.navphone {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-right: 1px;
+  padding: 5px;
+}
+.navphone img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 33px;
+}
+.navphoneP {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 5px;
+  margin-left: 1px;
+}
+.navphoneP p {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 5px;
+
+  color: #7d7d7d;
+}
+.mainButtonwrapper {
+  position: absolute;
+  right: 10.333%;
+  top: 30%;
+  z-index: 1;
+  height: 360px;
+  width: 584px;
+  margin-bottom: 30px;
+}
+.mainText {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: #1a1919;
+  padding-bottom: 15px;
+}
+.mainButton img {
+  width: 30%;
+  border: 1px solid red;
+}
+
+.mainContent {
+  max-width: 1169px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 135px;
+}
+.mainContentRigth {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.maincontentLeft img {
+  width: 770px;
+  height: 487px;
+}
+.maincontentLeft {
+  padding: 0px 25px 0px 0px;
+  margin: 0px 25px 0px 0px;
+}
+.MCtext {
+  width: 772px;
+  margin-top: 38px;
+  height: 223px;
+}
+.MCRfirst {
+  background: linear-gradient(180deg, #f8f8f8 0%, #f7f7f7 100%);
+  width: 350px;
+  height: 243px;
+  padding: 10%;
+}
+.mcrTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MCRText {
+}
+.MCRfirstImg {
+}
+.MCRsecond {
+  background: linear-gradient(180deg, #f3f3f3 2.58%, #f3f3f3 100%);
+  width: 350px;
+  height: 243px;
+  padding: 10%;
+}
+.MCRthree {
+  background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%);
+  width: 350px;
+  height: 243px;
+  padding: 10%;
+}
+
+.wrapperCentrBlock {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 1667px;
+  width: 100%;
+}
+.WLBlock {
+  background-image: url(img/825454080.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 961px;
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 504px;
+  margin-top: 21px;
+  overflow: hidden;
+}
+.WLBlock a {
+  margin-left: 12.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: #1a1919;
+  size: 1.5rem;
+
+  width: 474px;
+  height: 96px;
+  padding-left: 5.5%;
+  margin-top: 21px;
+}
+/* .WLBlockWrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-height: 231px;
+  max-width: 474px;
+} */
+.WLB1 a {
+  background: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+}
+.WLB2 a {
+  overflow: hidden;
+  background: #0e77af;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+.WLB3 a {
+  background: #0e77af;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+
+.mcrTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Pro4ee */
+h3 {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+
+  color: #000000;
+}
+h4 {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #9b9b9b;
+}
+/* WRBlock  */
+
+.WRBlock {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(img/Rectangle\ 4\ Copy\ 17.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1667px;
+  width: 50%;
+  height: 504px;
+}
+
+.WRBlockText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 50px;
+  max-width: 474px;
+  height: 196px;
+}
+
+.WRBlockTextInfo {
+  display: flex;
+  width: 474px;
+  height: 196px;
+
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 25px;
+}
+.WRB1 {
+  position: absolute;
+  left: 65px;
+  bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  width: 104px;
+  height: 35px;
+  margin-left: 20px;
+}
+.WRBTh3 {
+  margin-left: 30px;
+}
+.WRBTh4 {
+  margin-left: 30px;
+}
+.WRB1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #f3f3f3;
+  background-image: url(img/read\ more.png);
+  width: 104px;
+  height: 35px;
+}
+/* Footer */
+.footterBlock {
+  max-width: 1665px;
+}
+.FBlockContent {
+  display: flex;
+  background-image: url(img/Rectangle\ 4\ Copy\ 12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1665px;
+  width: 100%;
+  height: 651px;
+}
+.contentblock1 {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+.helperBlock {
+ 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  width: 100%;
+}
+.helper1 {
+  width: 177px;
+  height: 37px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.helper2 {
+  width: 187px;
+  height: 28px;
+
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.helper3 {
+  width: 118px;
+  height: 73px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 73px;
+  color: #ffffff;
+}
+.helper4 {
+  width: 230px;
+  height: 32px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.helper5 {
+  width: 138px;
+  height: 32px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  identical to box height
+  color: #ffffff;
+}
+.helper5 a {
+  width: 138px;
+  height: 32px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  identical to box height
+  color: #ffffff;
+}
+.helperBlockR {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 734px;
+  height: 356px;
+  background: #FFFFFF;
+  padding: 5%;
+}
+.HBR1 {
+}
+.HBR2 {
+}
+
+
+
+
+
+
+
+/* finalfooter
+.finalfooter {
+  display: flex;
+  background-image: url(img/finalfooter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1665px;
+  height: 108px;
+} */
